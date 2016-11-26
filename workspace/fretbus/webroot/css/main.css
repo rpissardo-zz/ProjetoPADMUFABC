@@ -1,0 +1,19 @@
+.barra {
+	background: #20202F;
+	font-family: 'arial';
+	font-size: 12px;
+	line-height: 23px;
+	padding: 15px 15px 10px 15px;
+	position: auto;
+	bottom: 0px;
+	min-height: 70px;
+	width: 100%;
+	color: #D80000;
+}
+
+span.totalToArriveKm, .totalToArriveTime, .modified, .vel{
+      color: #fff !important;
+    
+}
+
+     
