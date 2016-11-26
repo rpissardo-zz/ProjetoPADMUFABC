@@ -1,0 +1,555 @@
+[31-May-2016 22:34:04 UTC] PHP Fatal error:  Call to a member function isNew() on a non-object in /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Marshaller.php on line 475
+[31-May-2016 22:34:04 UTC] PHP Stack trace:
+[31-May-2016 22:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[31-May-2016 22:34:04 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[31-May-2016 22:34:04 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[31-May-2016 22:34:04 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[31-May-2016 22:34:04 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:34:04 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:34:04 UTC] PHP   7. Cake\ORM\Table->patchEntity() /home/ubuntu/workspace/fretbus/src/Controller/DataController.php:110
+[31-May-2016 22:34:04 UTC] PHP   8. Cake\ORM\Marshaller->merge() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Table.php:2099
+[31-May-2016 22:40:49 UTC] PHP Fatal error:  Call to a member function isNew() on a non-object in /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Marshaller.php on line 475
+[31-May-2016 22:40:49 UTC] PHP Stack trace:
+[31-May-2016 22:40:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[31-May-2016 22:40:49 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[31-May-2016 22:40:49 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[31-May-2016 22:40:49 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[31-May-2016 22:40:49 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:40:49 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:40:49 UTC] PHP   7. Cake\ORM\Table->patchEntity() /home/ubuntu/workspace/fretbus/src/Controller/DataController.php:107
+[31-May-2016 22:40:49 UTC] PHP   8. Cake\ORM\Marshaller->merge() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Table.php:2099
+[31-May-2016 22:41:54 UTC] PHP Fatal error:  Call to a member function isNew() on a non-object in /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Marshaller.php on line 475
+[31-May-2016 22:41:54 UTC] PHP Stack trace:
+[31-May-2016 22:41:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[31-May-2016 22:41:54 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[31-May-2016 22:41:54 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[31-May-2016 22:41:54 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[31-May-2016 22:41:54 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:41:54 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:41:54 UTC] PHP   7. Cake\ORM\Table->patchEntity() /home/ubuntu/workspace/fretbus/src/Controller/DataController.php:108
+[31-May-2016 22:41:54 UTC] PHP   8. Cake\ORM\Marshaller->merge() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Table.php:2099
+[31-May-2016 22:44:42 UTC] PHP Fatal error:  Call to a member function newEntity() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 103
+[31-May-2016 22:44:42 UTC] PHP Stack trace:
+[31-May-2016 22:44:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[31-May-2016 22:44:42 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[31-May-2016 22:44:42 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[31-May-2016 22:44:42 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[31-May-2016 22:44:42 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[31-May-2016 22:44:42 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 11:13:35 UTC] PHP Fatal error:  Call to a member function layout() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 121
+[01-Jun-2016 11:13:35 UTC] PHP Stack trace:
+[01-Jun-2016 11:13:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[01-Jun-2016 11:13:35 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[01-Jun-2016 11:13:35 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[01-Jun-2016 11:13:35 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[01-Jun-2016 11:13:35 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 11:13:35 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:21:18 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 124
+[01-Jun-2016 12:21:18 UTC] PHP Stack trace:
+[01-Jun-2016 12:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[01-Jun-2016 12:21:18 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[01-Jun-2016 12:21:18 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[01-Jun-2016 12:21:18 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[01-Jun-2016 12:21:18 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:21:18 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:22:08 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 124
+[01-Jun-2016 12:22:08 UTC] PHP Stack trace:
+[01-Jun-2016 12:22:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[01-Jun-2016 12:22:08 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[01-Jun-2016 12:22:08 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[01-Jun-2016 12:22:08 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[01-Jun-2016 12:22:08 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:22:08 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:23:33 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 124
+[01-Jun-2016 12:23:33 UTC] PHP Stack trace:
+[01-Jun-2016 12:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[01-Jun-2016 12:23:33 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[01-Jun-2016 12:23:33 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[01-Jun-2016 12:23:33 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[01-Jun-2016 12:23:33 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:23:33 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:23:52 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 124
+[01-Jun-2016 12:23:52 UTC] PHP Stack trace:
+[01-Jun-2016 12:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[01-Jun-2016 12:23:52 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[01-Jun-2016 12:23:52 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[01-Jun-2016 12:23:52 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[01-Jun-2016 12:23:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[01-Jun-2016 12:23:52 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:09:52 UTC] PHP Fatal error:  Class 'App\Controller\Date' not found in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[02-Jun-2016 13:09:52 UTC] PHP Stack trace:
+[02-Jun-2016 13:09:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[02-Jun-2016 13:09:52 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[02-Jun-2016 13:09:52 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[02-Jun-2016 13:09:52 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[02-Jun-2016 13:09:52 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:09:52 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:11:00 UTC] PHP Fatal error:  Class 'App\Controller\Date' not found in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[02-Jun-2016 13:11:00 UTC] PHP Stack trace:
+[02-Jun-2016 13:11:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[02-Jun-2016 13:11:00 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[02-Jun-2016 13:11:00 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[02-Jun-2016 13:11:00 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[02-Jun-2016 13:11:00 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:11:00 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:17:45 UTC] PHP Fatal error:  Class 'App\Controller\DateTime' not found in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[02-Jun-2016 13:17:45 UTC] PHP Stack trace:
+[02-Jun-2016 13:17:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[02-Jun-2016 13:17:45 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[02-Jun-2016 13:17:45 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[02-Jun-2016 13:17:45 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[02-Jun-2016 13:17:45 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[02-Jun-2016 13:17:45 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:31:43 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[15-Sep-2016 13:31:43 UTC] PHP Stack trace:
+[15-Sep-2016 13:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Sep-2016 13:31:43 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Sep-2016 13:31:43 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Sep-2016 13:31:43 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Sep-2016 13:31:43 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:31:43 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:32:45 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[15-Sep-2016 13:32:45 UTC] PHP Stack trace:
+[15-Sep-2016 13:32:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Sep-2016 13:32:45 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Sep-2016 13:32:45 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Sep-2016 13:32:45 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Sep-2016 13:32:45 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:32:45 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:32:48 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[15-Sep-2016 13:32:48 UTC] PHP Stack trace:
+[15-Sep-2016 13:32:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Sep-2016 13:32:48 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Sep-2016 13:32:48 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[15-Sep-2016 13:32:48 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[15-Sep-2016 13:32:48 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Sep-2016 13:32:48 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:05:24 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[21-Sep-2016 13:05:24 UTC] PHP Stack trace:
+[21-Sep-2016 13:05:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[21-Sep-2016 13:05:24 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[21-Sep-2016 13:05:24 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[21-Sep-2016 13:05:24 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[21-Sep-2016 13:05:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:05:24 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:06:05 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[21-Sep-2016 13:06:05 UTC] PHP Stack trace:
+[21-Sep-2016 13:06:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[21-Sep-2016 13:06:05 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[21-Sep-2016 13:06:05 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[21-Sep-2016 13:06:05 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[21-Sep-2016 13:06:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:06:05 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:06:32 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[21-Sep-2016 13:06:32 UTC] PHP Stack trace:
+[21-Sep-2016 13:06:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[21-Sep-2016 13:06:32 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[21-Sep-2016 13:06:32 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[21-Sep-2016 13:06:32 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[21-Sep-2016 13:06:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[21-Sep-2016 13:06:32 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[08-Oct-2016 11:30:33 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[08-Oct-2016 11:30:33 UTC] PHP Stack trace:
+[08-Oct-2016 11:30:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[08-Oct-2016 11:30:33 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[08-Oct-2016 11:30:33 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[08-Oct-2016 11:30:33 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[08-Oct-2016 11:30:33 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[08-Oct-2016 11:30:33 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[08-Oct-2016 11:30:37 UTC] PHP Fatal error:  Call to a member function timeAgoInWords() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 123
+[08-Oct-2016 11:30:37 UTC] PHP Stack trace:
+[08-Oct-2016 11:30:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[08-Oct-2016 11:30:37 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[08-Oct-2016 11:30:37 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[08-Oct-2016 11:30:37 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[08-Oct-2016 11:30:37 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[08-Oct-2016 11:30:37 UTC] PHP   6. App\Controller\DataController->map() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[09-Nov-2016 22:12:05 UTC] PHP Fatal error:  Call to a member function isNew() on a non-object in /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Marshaller.php on line 475
+[09-Nov-2016 22:12:05 UTC] PHP Stack trace:
+[09-Nov-2016 22:12:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[09-Nov-2016 22:12:05 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[09-Nov-2016 22:12:05 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[09-Nov-2016 22:12:05 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[09-Nov-2016 22:12:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[09-Nov-2016 22:12:05 UTC] PHP   6. App\Controller\DataController->newpos() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[09-Nov-2016 22:12:05 UTC] PHP   7. Cake\ORM\Table->patchEntity() /home/ubuntu/workspace/fretbus/src/Controller/DataController.php:113
+[09-Nov-2016 22:12:05 UTC] PHP   8. Cake\ORM\Marshaller->merge() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/ORM/Table.php:2099
+[13-Nov-2016 22:19:26 UTC] PHP Fatal error:  Cannot use object of type Cake\ORM\Query as array in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 106
+[13-Nov-2016 22:19:26 UTC] PHP Stack trace:
+[13-Nov-2016 22:19:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[13-Nov-2016 22:19:26 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[13-Nov-2016 22:19:26 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Nov-2016 22:19:26 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[13-Nov-2016 22:19:26 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:19:26 UTC] PHP   6. App\Controller\DataController->simulate() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:34:04 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/fretbus/src/Template/Layout/simulate.ctp on line 4
+[13-Nov-2016 22:34:04 UTC] PHP Stack trace:
+[13-Nov-2016 22:34:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[13-Nov-2016 22:34:04 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[13-Nov-2016 22:34:04 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Nov-2016 22:34:04 UTC] PHP   4. Cake\Controller\Controller->render() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:120
+[13-Nov-2016 22:34:04 UTC] PHP   5. Cake\View\View->render() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:611
+[13-Nov-2016 22:34:04 UTC] PHP   6. Cake\View\View->renderLayout() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/View/View.php:592
+[13-Nov-2016 22:34:04 UTC] PHP   7. Cake\View\View->_render() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/View/View.php:633
+[13-Nov-2016 22:34:04 UTC] PHP   8. Cake\View\View->_evaluate() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/View/View.php:952
+[13-Nov-2016 22:34:04 UTC] PHP   9. include() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/View/View.php:992
+[13-Nov-2016 22:50:50 UTC] PHP Fatal error:  Call to a member function first() on a non-object in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 106
+[13-Nov-2016 22:50:50 UTC] PHP Stack trace:
+[13-Nov-2016 22:50:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[13-Nov-2016 22:50:50 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[13-Nov-2016 22:50:50 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Nov-2016 22:50:50 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[13-Nov-2016 22:50:50 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:50:50 UTC] PHP   6. App\Controller\DataController->simulate() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:59:05 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 108
+[13-Nov-2016 22:59:05 UTC] PHP Stack trace:
+[13-Nov-2016 22:59:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[13-Nov-2016 22:59:05 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[13-Nov-2016 22:59:05 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Nov-2016 22:59:05 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[13-Nov-2016 22:59:05 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:59:05 UTC] PHP   6. App\Controller\DataController->simulate() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:59:55 UTC] PHP Fatal error:  Cannot use object of type stdClass as array in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 108
+[13-Nov-2016 22:59:55 UTC] PHP Stack trace:
+[13-Nov-2016 22:59:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[13-Nov-2016 22:59:55 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[13-Nov-2016 22:59:55 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[13-Nov-2016 22:59:55 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[13-Nov-2016 22:59:55 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[13-Nov-2016 22:59:55 UTC] PHP   6. App\Controller\DataController->simulate() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[15-Nov-2016 12:23:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:23 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:23 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:23 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:23 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:23 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:23 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:23 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:23 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:23 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:23 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:23 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:23 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:23 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:23 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:23 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:23 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:23 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:23 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:23 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:23 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:23 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:23 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:23 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:23 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:27 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:27 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:27 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:27 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:27 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:27 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:27 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:27 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:27 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:27 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:27 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:27 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:27 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:27 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:27 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:27 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:27 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:27 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:27 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:27 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:27 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:27 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:27 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:27 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:30 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:30 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:30 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:30 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:30 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:30 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:30 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:30 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:30 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:30 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:30 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:30 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:30 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:30 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:30 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:30 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:30 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:30 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:30 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:30 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:30 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:30 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:30 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:30 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:30 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:33 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:33 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:33 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:33 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:33 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:33 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:33 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:33 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:33 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:33 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:33 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:33 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:33 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:33 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:33 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:33 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:33 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:33 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:33 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:33 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:33 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:33 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:33 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:33 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:33 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:36 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:36 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:36 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:36 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:36 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:36 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:36 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:36 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:36 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:36 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:36 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:36 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:36 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:36 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:36 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:36 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:36 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:36 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:36 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:36 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:36 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:36 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:36 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:36 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:36 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:39 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:39 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:39 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:39 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:39 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:39 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:39 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:39 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:39 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:39 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:39 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:39 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:39 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:39 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:39 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:39 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:39 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:39 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:39 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:39 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:39 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:39 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:39 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:39 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:42 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:42 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:42 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:42 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:42 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:42 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:42 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:42 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:42 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:42 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:42 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:42 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:42 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:42 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:42 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:42 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:42 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:42 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:42 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:42 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:42 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:42 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:42 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:42 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:42 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:45 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:45 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:45 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:45 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:45 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:45 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:45 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:45 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:45 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:45 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:45 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:45 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:45 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:45 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:45 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:45 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:45 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:45 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:45 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:45 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:45 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:45 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:45 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:45 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:45 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:48 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:48 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:48 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:48 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:48 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:48 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:48 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:48 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:48 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:48 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:48 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:48 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:48 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:48 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:48 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:49 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:49 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:49 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:49 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:49 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:49 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:49 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:49 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:49 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:49 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:49 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:49 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:49 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:49 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:49 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:51 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:51 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:51 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:51 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:51 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:51 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:51 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:51 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:51 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:51 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:51 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:51 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:51 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:51 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:51 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[15-Nov-2016 12:23:52 UTC] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 105
+[15-Nov-2016 12:23:52 UTC] PHP Stack trace:
+[15-Nov-2016 12:23:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[15-Nov-2016 12:23:52 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[15-Nov-2016 12:23:52 UTC] PHP   3. Cake\Routing\Dispatcher->dispatchEvent() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:62
+[15-Nov-2016 12:23:52 UTC] PHP   4. Cake\Event\EventManager->dispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventDispatcherTrait.php:78
+[15-Nov-2016 12:23:52 UTC] PHP   5. Cake\Event\EventManager->_callListener() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:356
+[15-Nov-2016 12:23:52 UTC] PHP   6. Cake\Routing\DispatcherFilter->handle() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Event/EventManager.php:390
+[15-Nov-2016 12:23:52 UTC] PHP   7. Cake\Routing\Filter\ControllerFactoryFilter->beforeDispatch() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/DispatcherFilter.php:145
+[15-Nov-2016 12:23:52 UTC] PHP   8. Cake\Routing\Filter\ControllerFactoryFilter->_getController() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:51
+[15-Nov-2016 12:23:52 UTC] PHP   9. Cake\Core\App::className() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Filter/ControllerFactoryFilter.php:91
+[15-Nov-2016 12:23:52 UTC] PHP  10. Cake\Core\App::_classExistsInBase() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:64
+[15-Nov-2016 12:23:52 UTC] PHP  11. class_exists() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:52 UTC] PHP  12. spl_autoload_call() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:52 UTC] PHP  13. Composer\Autoload\ClassLoader->loadClass() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Core/App.php:151
+[15-Nov-2016 12:23:52 UTC] PHP  14. Composer\Autoload\includeFile() /home/ubuntu/workspace/fretbus/vendor/composer/ClassLoader.php:301
+[23-Nov-2016 22:06:32 UTC] PHP Fatal error:  Cannot use object of type Cake\ORM\Query as array in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 164
+[23-Nov-2016 22:06:32 UTC] PHP Stack trace:
+[23-Nov-2016 22:06:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[23-Nov-2016 22:06:32 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[23-Nov-2016 22:06:32 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[23-Nov-2016 22:06:32 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[23-Nov-2016 22:06:32 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[23-Nov-2016 22:06:32 UTC] PHP   6. App\Controller\DataController->hist() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[23-Nov-2016 22:07:24 UTC] PHP Fatal error:  Cannot use object of type Cake\ORM\Query as array in /home/ubuntu/workspace/fretbus/src/Controller/DataController.php on line 165
+[23-Nov-2016 22:07:24 UTC] PHP Stack trace:
+[23-Nov-2016 22:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/fretbus/webroot/index.php:0
+[23-Nov-2016 22:07:24 UTC] PHP   2. Cake\Routing\Dispatcher->dispatch() /home/ubuntu/workspace/fretbus/webroot/index.php:37
+[23-Nov-2016 22:07:24 UTC] PHP   3. Cake\Routing\Dispatcher->_invoke() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:87
+[23-Nov-2016 22:07:24 UTC] PHP   4. Cake\Controller\Controller->invokeAction() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Routing/Dispatcher.php:114
+[23-Nov-2016 22:07:24 UTC] PHP   5. call_user_func_array:{/home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429}() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
+[23-Nov-2016 22:07:24 UTC] PHP   6. App\Controller\DataController->hist() /home/ubuntu/workspace/fretbus/vendor/cakephp/cakephp/src/Controller/Controller.php:429
