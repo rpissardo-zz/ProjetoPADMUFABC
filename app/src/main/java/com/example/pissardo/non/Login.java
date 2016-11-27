@@ -1,7 +1,9 @@
 package com.example.pissardo.non;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
@@ -20,6 +22,9 @@ import java.net.URL;
 
 
 public class Login extends Activity {
+    SharedPreferences sharedpreferencesPass;
+    public static final String MyPREFERENCES = "myprefs";
+    public static final  String prefPassword = " ";
     private static final String TAG = "Http Connection";
     Button button_login,button_close;
     EditText edit_bus_code,edit_password;
@@ -36,21 +41,36 @@ public class Login extends Activity {
         edit_bus_code = (EditText)findViewById(R.id.editText);
         edit_password = (EditText)findViewById(R.id.editText2);
         button_close = (Button)findViewById(R.id.button2);
-
-        button_login.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if(edit_bus_code.getText().toString().equals(username) &&
-                        edit_password.getText().toString().equals(password)) {
-                    Toast.makeText(getApplicationContext(),
-                            "Localizando...", Toast.LENGTH_LONG).show();
-                    callmap();
-                }else{
-                    Toast.makeText(getApplicationContext(), "Dados Inválidos",Toast.LENGTH_LONG).show();
+        sharedpreferencesPass = getSharedPreferences(MyPREFERENCES, Context.MODE_PRIVATE);
+        final String[] j = {sharedpreferencesPass.getString(prefPassword, " ")};
+        Log.i(TAG, "*****************************************************");
+        Log.i(TAG, j[0]);
+        Log.i(TAG, password);
+        if(j[0].equals(password)){
+            Toast.makeText(getApplicationContext(),
+                    "Localizando...", Toast.LENGTH_LONG).show();
+         callmap();
+        }else {
+            button_login.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    if (edit_bus_code.getText().toString().equals(username) &&
+                            edit_password.getText().toString().equals(password)) {
+                        Toast.makeText(getApplicationContext(),
+                                "Localizando...", Toast.LENGTH_LONG).show();
+                        SharedPreferences.Editor editorPass = sharedpreferencesPass.edit();
+                        editorPass.putString(prefPassword, edit_password.getText().toString());
+                        editorPass.commit();
+                        j[0] = sharedpreferencesPass.getString(prefPassword, " ");
+                        Log.i(TAG, "*****************************************************");
+                        Log.i(TAG, j[0]);
+                        callmap();
+                    } else {
+                        Toast.makeText(getApplicationContext(), "Dados Inválidos", Toast.LENGTH_LONG).show();
+                    }
                 }
-            }
-        });
-
+            });
+        }
         button_close.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
